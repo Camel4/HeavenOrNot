@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.gif-container {
+    background-color: #000;
+    overflow: hidden;
+    height: 400px;
+}
+
+.gif {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 31px;
+    font-weight: bolder;
+    letter-spacing: 25px;
+}
+
+.spacer {
+    margin: 0 20px;
+}
+
+.quotecontainer {
+    margin: 26px 120px;
+}
+
+.quote {
+    border: 2px solid #000;
+    border-radius: 0px;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.57);
+    overflow: hidden;
+    max-width: 900px;
+    padding: 24px;
+}
+
+.mainbody {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.div-block-6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    border-radius: 25px;
+    background-color: #ecb938;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px 30px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c79621;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+#resultText {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ecb938;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
