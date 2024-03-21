@@ -8,12 +8,13 @@ body {
 .gif-container {
     background-color: #000;
     overflow: hidden;
-    height: 400px;
+    height: 50vh; /* Adjusted height for better visibility */
 }
 
 .gif {
     width: 100%;
-    margin-top: -100px;
+    margin-top: -20%;
+    object-fit: contain; /* Ensures the whole image is visible */
 }
 
 .navbar {
@@ -24,38 +25,27 @@ body {
 }
 
 .heading {
-    font-size: 31px;
+    font-size: 48px; /* Adjusted font size for better visibility */
     font-weight: bolder;
-    letter-spacing: 25px;
+    letter-spacing: 2vw;
+
 }
 
-.spacer {
-    margin: 0 20px;
-}
-
-.quotecontainer {
-    margin: 26px 120px;
-}
-
-.quote {
-    border: 2px solid #000;
-    border-radius: 0px;
-    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.57);
-    overflow: hidden;
-    max-width: 900px;
-    padding: 24px;
+.bodycontainer {
+    padding: 20px;
 }
 
 .mainbody {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 30px; /* Adjusted font size for better visibility */
+    line-height: 24px;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .div-block-6 {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .button {
@@ -81,7 +71,7 @@ body {
 
 #resultText {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     text-transform: uppercase;
     color: #ecb938;
     margin-top: 20px;
